@@ -6,3 +6,8 @@
 #                 + 필요한 자료형들을 구성/설정
 # 실제대면면접 : 기본적인 정렬 알고리즘 차이점 & 코드로 구현 
 #               => 알고리즘 효율성&특성
+a = [15,22,8,70,10]
+aa = sorted(a,reverse = True)# 값 기준 내림차순
+bb = sorted(a,reverse = False) # 값 기준 오름차순
+print(aa)
+print(bb)
